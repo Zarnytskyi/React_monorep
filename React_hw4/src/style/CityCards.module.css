@@ -1,0 +1,38 @@
+.card {
+    max-width: 600px;
+    margin: 2rem auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    background-color: white;
+  }
+  
+  .image {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+  }
+  
+  .content {
+    padding: 1.5rem;
+  }
+  
+  .title {
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .description {
+    margin-bottom: 1rem;
+    color: #444;
+  }
+  
+  .facts {
+    list-style-type: disc;
+    padding-left: 1.2rem;
+  }
+  
+  .facts li {
+    margin-bottom: 0.5rem;
+  }
+  
