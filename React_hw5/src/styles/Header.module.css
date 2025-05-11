@@ -1,0 +1,10 @@
+.header_container{
+    padding: 20px;
+    text-align: left;
+}
+.img{
+    background: no-repeat;
+    background-size: cover;
+    width: 120px;
+    height: 37px;
+}
