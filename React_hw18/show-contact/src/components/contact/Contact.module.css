@@ -1,0 +1,77 @@
+.contactsSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 40px;
+  background-color: #f8f8f8;
+}
+
+.infoBlock {
+  width: 60%;
+}
+
+.title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.contactList {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.contactList li {
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+}
+
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.inputField {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.submitButton {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #0078ff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submitButton:hover {
+  background-color: #0056b3;
+}
+
+.socialBlock {
+  width: 30%;
+  text-align: center;
+}
+
+.socialLinks {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.socialLinks img {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.socialLinks img:hover {
+  transform: scale(1.1);
+}
